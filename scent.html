@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOD TRACKER AND ANALYZER BASED ON DAILY SCENTS</title>
+    <link rel="stylesheet" href="scent.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Scents & Feelings:<br> Track and Analyze Your Mood Through Everyday Scents</h1>
+
+    <!--Input scent and feelings-->
+    <input type="text" id="scentInput" placeholder="Enter today's scent">
+    <input type="text" id="feelingInput" placeholder="How did it make you feel?">
+    <button onclick="submitScent()">Submit Response</button>
+
+    <!-- Results -->
+    <div class="results" id="results">
+        <h2>Results:</h2>
+        <p id="analysisMessage">Please input a scent and feeling for analyzing.</p>
+    </div>
+</div>
+
+<script src="scent.js"></script>
+
+</body>
+</html>

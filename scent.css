@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background-color:   skyblue;
+ }
+body {
+    font-family: Arial, sans-serif
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: Montserrat;
+    line-height: 1.4;
+}
+input, button {
+    padding: 13px;
+    margin: 10px;
+    font-size: 1.1rem;
+    border-color: rgb(0, 0, 0);
+    
+}
+.results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 5px;
+}
